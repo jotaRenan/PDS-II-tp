@@ -22,6 +22,12 @@
     <Filter Include="Arquivos de Cabeçalho\Enums">
       <UniqueIdentifier>{8bd86c7d-e837-49d3-9171-aaee096a616f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Arquivos de Origem\Excecoes">
+      <UniqueIdentifier>{1770c701-bd9d-4a70-835a-2c7f95534d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Excecoes">
+      <UniqueIdentifier>{b661b7ac-5c10-4c9b-8cdc-c498e72608ab}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -57,12 +63,24 @@
     <ClInclude Include="QuadroRepositorio.hpp">
       <Filter>Arquivos de Cabeçalho\Repositorios</Filter>
     </ClInclude>
+    <ClInclude Include="NaoImplementadaException.hpp">
+      <Filter>Arquivos de Cabeçalho\Excecoes</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
     <ClCompile Include="Teste.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="NaoImplementadaException.cpp">
+      <Filter>Arquivos de Origem\Excecoes</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadroRepositorio.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="TarefaRepositorio.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
   </ItemGroup>
