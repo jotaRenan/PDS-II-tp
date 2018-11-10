@@ -51,6 +51,12 @@
     <ClInclude Include="Status.hpp">
       <Filter>Arquivos de Cabeçalho\Enums</Filter>
     </ClInclude>
+    <ClInclude Include="Quadro.hpp">
+      <Filter>Arquivos de Cabeçalho\Repositorios\Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadroRepositorio.hpp">
+      <Filter>Arquivos de Cabeçalho\Repositorios</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

@@ -152,6 +152,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\usuario\Desktop\catch.hpp" />
+    <ClInclude Include="Quadro.hpp" />
+    <ClInclude Include="QuadroRepositorio.hpp" />
     <ClInclude Include="Status.hpp" />
     <ClInclude Include="EntidadeBase.hpp" />
     <ClInclude Include="RepositorioBase.h" />
