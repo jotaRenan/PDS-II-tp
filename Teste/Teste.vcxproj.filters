@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Repositorios">
+      <UniqueIdentifier>{b89c1b4b-ca51-4cc4-bb8a-93587076bba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Repositorios\Entidades">
+      <UniqueIdentifier>{bc2bfc77-4013-4e99-9bc5-912ae0c95546}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -26,6 +32,12 @@
     </ClInclude>
     <ClInclude Include="Serializavel.hpp">
       <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="RepositorioBase.h">
+      <Filter>Arquivos de Cabeçalho\Repositorios</Filter>
+    </ClInclude>
+    <ClInclude Include="EntidadeBase.hpp">
+      <Filter>Arquivos de Cabeçalho\Repositorios\Entidades</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
