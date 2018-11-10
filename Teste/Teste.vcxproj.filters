@@ -19,6 +19,9 @@
     <Filter Include="Arquivos de Cabeçalho\Repositorios\Entidades">
       <UniqueIdentifier>{bc2bfc77-4013-4e99-9bc5-912ae0c95546}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Enums">
+      <UniqueIdentifier>{8bd86c7d-e837-49d3-9171-aaee096a616f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -38,6 +41,15 @@
     </ClInclude>
     <ClInclude Include="EntidadeBase.hpp">
       <Filter>Arquivos de Cabeçalho\Repositorios\Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="TarefaRepositorio.hpp">
+      <Filter>Arquivos de Cabeçalho\Repositorios</Filter>
+    </ClInclude>
+    <ClInclude Include="Tarefa.hpp">
+      <Filter>Arquivos de Cabeçalho\Repositorios\Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="Status.hpp">
+      <Filter>Arquivos de Cabeçalho\Enums</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

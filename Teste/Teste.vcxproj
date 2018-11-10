@@ -152,10 +152,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\usuario\Desktop\catch.hpp" />
+    <ClInclude Include="Status.hpp" />
     <ClInclude Include="EntidadeBase.hpp" />
     <ClInclude Include="RepositorioBase.h" />
     <ClInclude Include="Serializavel.hpp" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Tarefa.hpp" />
+    <ClInclude Include="TarefaRepositorio.hpp" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
