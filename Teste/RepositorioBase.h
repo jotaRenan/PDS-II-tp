@@ -2,7 +2,8 @@
 #include <iostream>
 #include <vector>
 
-template<class T> class RepositorioBase {
+template <class T> 
+class RepositorioBase {
 	public:
 		virtual bool inserir(T) = 0;
 		virtual bool atualizar(T) = 0;
